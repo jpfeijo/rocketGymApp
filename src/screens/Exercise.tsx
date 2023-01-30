@@ -1,9 +1,9 @@
-import { Center, Text } from 'native-base';
+import { Text, VStack } from 'native-base';
 
 export function Exercise() {
   return (
-    <Center flex={1}>
+    <VStack flex={1}>
       <Text>Exercise</Text>
-    </Center>
+    </VStack>
   );
 }
